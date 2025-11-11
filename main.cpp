@@ -47,7 +47,7 @@ using namespace std;
     void Course::displayCourseInfo(){
         cout<<courseCode<<"-"<<courseName<<endl;
         cout<<"Max students: "<<maxStudents<<endl;
-        cout<<"Current enrolled: "<<currentStudents<<endl;
+        cout<<"Current enrolled: "<<students<<"ID:"<<id<<endl;
         
     }
 
