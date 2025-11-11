@@ -8,6 +8,10 @@ class Instructor:public Person{
         int experienceYears;
         string department;
     public:
+        int getExperienceYears();
+        string getDepartment();
+        void setExperienceYears();
+        void setDepartment();
         Instructor();
         Instructor(string name,int experienceYears,string department);
         void display();
