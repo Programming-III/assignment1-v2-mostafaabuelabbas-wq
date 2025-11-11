@@ -9,6 +9,11 @@ class Student:public Person{
         string major;
         int yearLevel;
     public:
+        string getMajor();
+        int getYearlevel();
+        void setMajor();
+        void getYearlevel();
+
         Student();
         Student(string name, string major, int yearlevel);
         void display();
