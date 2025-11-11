@@ -4,10 +4,14 @@
 #include <string>
 using namespace std;
 class Person{
-    protected:
+    private:
         string name;
         int id;
     public:
+        string getname();
+        int getif();
+        void setname();
+        void setId();
         Person();
         Person(string name , int id);
         void display();
