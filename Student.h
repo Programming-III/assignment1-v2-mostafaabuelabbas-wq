@@ -10,7 +10,7 @@ class Student:public Person{
         int yearLevel;
     public:
         Student();
-        Student(string name, int id, string major, int yearlevel):Person(name,id){};
+        Student(string name, string major, int yearlevel);
         void display();
         ~Student();
 };
