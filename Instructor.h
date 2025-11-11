@@ -9,7 +9,7 @@ class Instructor:public Person{
         string department;
     public:
         Instructor();
-        Instructor(string name,int id,int experienceYears,string department):Person(name, id){};
+        Instructor(string name,int experienceYears,string department);
         void display();
         ~Instructor();
 };
