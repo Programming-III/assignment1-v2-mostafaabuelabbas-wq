@@ -13,6 +13,14 @@ class Course{
         int currentStudents;
     
     public:
+        string getcourseCode();
+        string getcourseName();
+        int getmaxStudents();
+        int getcurrentStudents();
+        void setcourseCode();
+        void setcourseName();
+        void setmaxStudents();
+        void setcurrentStudents();
         Course();
         Course(string courseCode,string courseName,int maxStudents, Student* students, int currentStudents);
         void addStudent(const Student& s);
